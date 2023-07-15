@@ -1,4 +1,9 @@
-const { romanToInt } = require("./leetcode/03-romanToInt.js");
-// const { miniMaxSum } = require("./hakerRank/01-miniMaxSum.js");
+const { longestCommonPrefix } = require("./leetcode/04-longestCommonPrefix.js");
+// const {
+//   birthdayCakeCandles,
+// } = require("./hakerRank/02-birthdayCakeCandles.js");
 
-console.log("romanToInt", romanToInt("XIV"));
+console.log(
+  "04-longestCommonPrefix",
+  longestCommonPrefix(["flower", "flow", "flight"])
+);
